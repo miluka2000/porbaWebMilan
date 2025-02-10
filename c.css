@@ -1,0 +1,66 @@
+.szegely{
+    width: 800px;
+    margin: auto;
+}
+body{
+    background-color: rgb(60, 50, 49);
+}
+header{
+    background-image: url(bordofal.jpg);
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 15px;
+}
+nav{
+    
+    background-color: black;
+    width: 200px;
+    display: grid;
+    color: white;
+    padding: 20px;
+}
+
+nav li{
+    transition: 0.2s linear;
+    margin: 10px 10px;
+    padding: 5px;
+}
+.nagy{
+    background-image: url(hatter.jpg);
+    height: 800px;
+    padding: 75px;
+}
+.menus{
+    width: 450px;
+    border: 2px solid rgba(255, 255, 255, 0.623);
+    background: transparent;
+    margin: 30px 0;
+    box-sizing: border-box;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.384);
+    border-radius: 20px 0px 20px 0px;
+}
+#kozéprész{
+    display: flex;
+    justify-content: space-between;
+}
+nav li:hover{
+    background-color: rgb(214, 197, 197);
+    margin-left: 15px;
+    padding: 5px;
+  
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+hr{
+    width: 158px;
+}
